@@ -6,14 +6,33 @@ body{
     display: flex;
 }
 
+.middle-part{
+    display: flex;
+}
+
 .same-part{
     width: 50%;
     padding-left: 30px;
 }
 
+
+.same-middle{
+    width: 50%;
+    padding-left: 30px;
+}
 .same-part p{
     text-align: justify;
     padding-bottom: 10px;
+}
+
+.same-middle p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.middle-para{
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 .same-part img{
     width: 70%;
@@ -22,8 +41,26 @@ body{
     
 }
 
+.same-middle img{
+    width: 90%;
+    margin-top: 50px;
+    
+}
+
 .wel-text{
     font-size: 50px;
+}
+
+.first-text{
+    font-size: 45px;
+}
+
+.middle-text{
+    font-size: 50px;
+}
+
+.second-text{
+    font-size: 45px;
 }
 
 .orange-color{
@@ -46,7 +83,30 @@ body{
     background-image: radial-gradient(black,rgb(8, 3, 1));
 }
 
+.middle-button{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    background-image: radial-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+.middle-button:hover{
+    color: #fff;
+    background-image: radial-gradient(black,rgb(8, 3, 1));
+}
+
 #section-one{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+}
+
+
+#section-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
