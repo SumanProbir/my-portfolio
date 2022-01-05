@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #181726;
     margin: 0;
 }
 .top-part{
@@ -25,6 +26,7 @@ body{
 .same-part p{
     text-align: justify;
     padding-bottom: 10px;
+    color: #fff;
 }
 
 .same-middle p{
@@ -35,6 +37,7 @@ body{
     text-align: justify;
     padding-bottom: 10px;
     padding-right: 20px;
+    color: #fff;
 }
 .same-part img{
     width: 70%;
@@ -51,18 +54,22 @@ body{
 
 .wel-text{
     font-size: 50px;
+    color: #fff;
 }
 
 .first-text{
     font-size: 45px;
+    color: #fff;
 }
 
 .middle-text{
     font-size: 50px;
+    color: #fff;
 }
 
 .second-text{
     font-size: 45px;
+    color: #fff;
 }
 
 .orange-color{
@@ -117,6 +124,7 @@ body{
 .ex-text{
     font-size: 50px;
     padding-left: 30px;
+    color: #fff;
 }
 
 .box-section{
@@ -139,11 +147,13 @@ body{
 
 .box-one h1{
     font-size: 40px;
+    color: #fff;
 }
 
 
 .box-two h1{
     font-size: 40px;
+    color: #fff;
 }
 
 .box-two h3{
@@ -177,14 +187,21 @@ body{
 
 
 .box-one p{
-    text-align: justify;    
+    text-align: justify;
+    color: #fff;    
 }
 
 
 .box-two p{
-    text-align: justify;   
+    text-align: justify;  
+    color: #fff; 
 }
 
 .footer-section{
     text-align: center;
+    color: #fff;
+}
+
+.same-part h3{
+    color: #fff;
 }
