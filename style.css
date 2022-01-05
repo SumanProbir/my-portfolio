@@ -4,11 +4,12 @@ body{
 }
 .top-part{
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .middle-part{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .same-part{
@@ -120,6 +121,8 @@ body{
 
 .box-section{
     display: flex;
+    margin-bottom: 100px;
+ 
 }
 
 #box-background{
@@ -127,4 +130,61 @@ body{
     background-repeat: no-repeat;
     background-position: left;
 
+}
+
+.box-one h3{
+    color: orange;
+}
+
+
+.box-one h1{
+    font-size: 40px;
+}
+
+
+.box-two h1{
+    font-size: 40px;
+}
+
+.box-two h3{
+    color: orange;
+}
+
+.box-one{
+    width: 35%;
+    margin-left: 80px;
+    padding-left: 70px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px slategray;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+
+
+.box-two{
+    width: 35%;
+    margin-left: 100px;
+    padding-left: 70px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px slategray;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+
+.box-one p{
+    text-align: justify;    
+}
+
+
+.box-two p{
+    text-align: justify;   
+}
+
+.footer-section{
+    text-align: center;
 }
